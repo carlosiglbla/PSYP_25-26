@@ -1,0 +1,27 @@
+Microsoft Windows [Versi¢n 10.0.26100.4946]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+D:\Carlos\PSYP_25-26\UT01_EjemplosJava>mkdir nuevo
+
+D:\Carlos\PSYP_25-26\UT01_EjemplosJava>cd nuevo
+
+D:\Carlos\PSYP_25-26\UT01_EjemplosJava\nuevo>echo creo fichero> Mifichero.txt
+
+D:\Carlos\PSYP_25-26\UT01_EjemplosJava\nuevo>dir
+ El volumen de la unidad D es Nuevo vol
+ El n£mero de serie del volumen es: E41D-1D49
+
+ Directorio de D:\Carlos\PSYP_25-26\UT01_EjemplosJava\nuevo
+
+17/10/2025  10:58    <DIR>          .
+17/10/2025  10:58    <DIR>          ..
+17/10/2025  10:59                14 Mifichero.txt
+               1 archivos             14 bytes
+               2 dirs  644.191.580.160 bytes libres
+
+D:\Carlos\PSYP_25-26\UT01_EjemplosJava\nuevo>dirr
+
+D:\Carlos\PSYP_25-26\UT01_EjemplosJava\nuevo>echo fin comandos
+fin comandos
+
+D:\Carlos\PSYP_25-26\UT01_EjemplosJava\nuevo>
