@@ -17,11 +17,12 @@ public class Ejemplo3 {
 		escritores.add(new HiloEjemplo3(9, "Maria"));
 		escritores.add(new HiloEjemplo3(7, "Alex"));
 
-		for (HiloEjemplo3 escritor : escritores)
+		for (HiloEjemplo3 escritor : escritores) {
 			escritor.start();
+		}
 
 		// Tiempo final de referencia
         long finalTime = System.currentTimeMillis();
-		System.out.println("Tiempo final: "+(finalTime-initialTime));
+		System.out.println("Tiempo final: "+(finalTime-initialTime)); 
 	}
 }
