@@ -18,19 +18,10 @@ public class Ejemplo3 {
 		escritores.add(new HiloEjemplo3(7, "Alex"));
 
 		for (HiloEjemplo3 escritor : escritores)
-			escritor.run();
+			escritor.start();
 
-		for (HiloEjemplo3 escritor : escritores) {
-			try {
-				escritor.join();
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-		// Tiempo inicial de referencia
+		// Tiempo final de referencia
         long finalTime = System.currentTimeMillis();
-
-		System.out.println("TODOS LOS HILOS HAN FINALIZADO en : "+(finalTime-initialTime));
+		System.out.println("Tiempo final: "+(finalTime-initialTime));
 	}
 }
